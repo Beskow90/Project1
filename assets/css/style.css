@@ -53,6 +53,18 @@ main {
     color: #fff;
 }
 
+.red-text {
+    color: red;
+}
+
+.green-text {
+    color: rgb(150, 244, 7);
+}
+
+.yellow-text {
+    color: beige;
+}
+
 .bg-black {
     background-color: #000;
     padding: 20px;
@@ -85,10 +97,13 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: yellowgreen;
+
 }
 
 /* Footer styles */
