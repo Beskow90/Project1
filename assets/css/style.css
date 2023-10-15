@@ -43,6 +43,10 @@ body {
     padding: 10px;
 }
 
+.flexbox a:hover {
+    color: orange;
+}
+
 /* Main content styles */
 main {
     padding: 20px;
