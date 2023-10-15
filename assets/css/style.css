@@ -75,6 +75,25 @@ main {
     margin-bottom: 20px;
 }
 
+/* Flexbox styles */
+.flexbox {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-container {
+    flex: 2;
+}
+
 /* Form styles */
 form {
     max-width: 400px;
@@ -133,4 +152,12 @@ footer {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
+}
+
+/* Media query for larger screens */
+@media (max-width: 768px) {
+    .image-container {
+        display: none;
+        /* Hide the image on screens smaller than 768px */
+    }
 }

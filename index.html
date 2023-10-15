@@ -69,19 +69,24 @@
         </section>
 
         <!-- Sign Up -->
-        <section id="signup">
-            <div class="text-white bg-black text-center">
-                <h2>Sign Up Now!</h2>
-                <h2 class="red-text">Now only: <span class="red-text">100€</span>/month</h2>
-                <form action="/submit_form" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+        <section id="signup-section">
+            <div class="flexbox text-white bg-black">
+                <div class="image-container">
+                    <img src="assets/images/winebox.jpeg" alt="Wine Box">
+                </div>
+                <div class="content-container text-center">
+                    <h2>Sign Up Now!</h2>
+                    <h2 class="red-text">Now only: <span class="red-text">100€</span>/month</h2>
+                    <form action="/submit_form" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
 
-                    <button type="submit">Submit</button>
-                </form>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </section>
 
