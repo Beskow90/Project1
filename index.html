@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockholm Social Wine Club</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/01f48b5e47.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* Additional styling for a clean layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #social-networks {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #social-networks li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        #social-networks a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="text-center page-header" id="header">
+        <div class="vertical-center">
+            <h1>Stockholm Social Wine Club</h1>
+        </div>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav class="black-background text-center text-uppercase flexbox">
+        <a href="#about">About Us</a>
+        <a href="#signup">Sign Up</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <section id="home-section">
+            <div class="text-white bg-black">
+                <div>
+                    <h2>Welcome to Stockholm Social Wine Club</h2>
+                    <p>Indulge in the Art of Wine with Us. Uncork the possibilities and savor the journey into the world
+                        of exquisite wines. At Stockholm Social Wine Club, we are more than just a club; we are a
+                        community of passionate individuals brought together by a shared love for the finer things in
+                        life. Whether you're a seasoned connoisseur or just beginning your adventure into the realm of
+                        wines, our club is your passport to an extraordinary vinous experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About us -->
+        <section id="about-section">
+            <div class="text-white bg-black">
+                <div>
+                    <h2>About Us</h2>
+                    <p>Embark on a worldwide exploration of flavors without leaving the comfort of your home. Each
+                        month, our curated selection transports you to renowned vineyards, introducing you to unique
+                        varietals, exceptional vintages, and the stories behind the labels. From the sun-kissed
+                        vineyards of Napa Valley to the rolling hills of Tuscany, our carefully chosen wines are a
+                        celebration of diversity and craftsmanship.</p>
+                    <h3>Monthly subscription includes:</h3>
+                    <ul>
+                        <li><strong>Curated Wine Selection</strong></li>
+                        <li><strong>Tasting Notes and Information</strong></li>
+                        <li><strong>Food Pairing Recommendations</strong></li>
+                        <li><strong>Exclusive Discounts</strong></li>
+                        <li><strong>Access to Virtual Tastings</strong></li>
+                        <li><strong>Premium Invites To Members-Only Events</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sign Up -->
+        <section id="signup-section">
+            <div class="text-white bg-black">
+                <h2>Sign Up Now!</h2>
+                <h2>Now only: 100€/month</h2>
+                <form action="/submit_form" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact-section">
+            <div class="text-white bg-black">
+                <h2>Contact us!</h2>
+                <h3>Got any questions? Get in touch!</h3>
+                <h3>+46 123 456 789 | info@sthlmsocialwineclub.se</h3>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
