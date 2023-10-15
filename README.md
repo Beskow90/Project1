@@ -78,6 +78,45 @@ social media links that are provided with well-known icons that represent an ext
 
 ___
 
-* ## Testing
+ ## Testing
 ___
-*
+* I have tested that this page works different browsers: Chrome and Safari.
+* I comfirmed that this project is responsive, looks good and funtions on all standard screen sizes using devtools device toolbar.
+* I comfirmed that the navigation, header, about us, sign up and contact are all readable and easy to understand.
+* I have confirmed that the form works: requires in every field, will only accept an email in the email field and the submit button works.
+
+## Bugs
+
+ Solved bugs
+ * I have tested the code frequently along the way of coding.
+ * Got some errors while run the code in a validator, but could debugging them easy.
+  
+## Validator Testing
+
+*HTML - Got 3 errors that I easily solve by my self, typos.
+
+*CSS - No errors were found when passing through the official (jugsaw) validator.
+
+![lighthouse](lighthouse-sc.png)
+
+### Unfixed bugs
+No unfixed bugs
+
+### Deployment
+___
+* The site was deployed to GitHub pages. The staps to deploy are as follows:
+* In the GitHub repository, navigate to the settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master brach has been selected, the page provided the link to the complete website.
+  
+The link can be found here - <https://beskow90.github.io/Project1/index.html>
+
+### Credits
+___
+* The code to make the social media links was taken from the Ci Love Running Project.
+  
+  ### Media
+  *The images inte the two sections was taken from here:
+  <https://produits.bienmanger.com/11561-0w0h0_Chateau_Pierriere_Cotes_Castillon_Red_6.jpg>
+  
+  <https://unsplash.com/s/photos/wine>
